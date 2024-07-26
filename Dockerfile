@@ -1,5 +1,5 @@
 # Dockerfile used in execution of Github Action
-FROM gruntwork/terragrunt:0.2.0
+FROM ghcr.io/mhimuro/terragrunt:0.2.0
 
 ENV MISE_CONFIG_DIR=~/.config/mise
 ENV MISE_STATE_DIR=~/.local/state/mise
